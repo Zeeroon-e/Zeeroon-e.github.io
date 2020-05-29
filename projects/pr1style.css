@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, html{
+  height: 100%;
+  display: grid; 
+  background-color: rgb(20, 20, 20);
+}
+
+.container{
+  background-color: rgb(255, 253, 253);
+  margin: auto;
+  position: relative;
+  height: 600px;
+  width: 800px;
+  border-radius: 2.5%;
+
+}
+
+.window{
+  background-color: rgb(222, 236, 238);
+  display: flexbox;
+  position: absolute;
+  width: 335px;
+  height: 570px;
+  top: 15px;
+  left: 15px;
+  
+  
+}
+
+.window-content{
+  color: rgb(94, 94, 94);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 30px;
+  
+  
+}
+
+input{
+  width: 15em;
+  height: 2em;
+  
+}
+
+
+#sendbtn{
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(94, 94, 94);
+  
+}
+#sendbtn:hover{
+  transition: ease-in 0.5s;
+  background-color: green;
+  cursor: pointer;
+}
+
+
+
+#backbtn{
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(94, 94, 94);
+}
+
+#backbtn:hover{
+  transition: ease-in 0.5s;
+  background-color: rgb(202, 46, 46);
+  cursor: pointer;
+}
+
+.output-box{
+  background-color: rgb(139, 160, 163);
+  position: absolute;
+  width: 435px;
+  height: 570px;
+  top: 15px;
+  right: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+#outputmsg{
+  background-color: rgb(30, 156, 30);
+  height: 350px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 2.5%;
+  margin-top: 10px;
+  text-align: center;
+  white-space:pre-wrap;
+  font-size: 30px;
+  
+}
+
