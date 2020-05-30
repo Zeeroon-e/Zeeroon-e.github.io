@@ -6,16 +6,16 @@
 body, html{
   height: 100%;
   display: grid; 
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(204, 187, 35);
 }
 
 .container{
-  background-color: rgb(255, 253, 253);
+  background-color: rgba(0, 0, 0, 0.247);
   margin: auto;
   position: relative;
   height: 600px;
   width: 62vw;
-
+  border-radius: 1.2%;
 
 }
 
@@ -55,7 +55,7 @@ input{
   height: 50px;
   font-weight: bold;
   color: white;
-  font-size: 2vw;
+  font-size: 1rem;
   background-color: rgb(94, 94, 94);
   
 }
@@ -73,7 +73,7 @@ input{
   height: 50px;
   font-weight: bold;
   color: white;
-  font-size: 2vw;
+  font-size: 1rem;
   background-color: rgb(94, 94, 94);
 }
 
@@ -84,26 +84,61 @@ input{
 }
 
 .output-box{
-  background-color: rgb(139, 160, 163);
+  background-color: rgb(255, 255, 255);
   position: absolute;
   width: 34vw;
   height: 590px;
   top: 5px;
   right: 5px;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(94, 94, 94);
 }
 #outputmsg{
-  background-color: rgb(30, 156, 30);
+  background-color: rgb(222, 236, 238);
   height: 350px;
-  border: 3px solid rgb(255, 255, 255);
+  color: rgb(94, 94, 94);
   border-radius: 2.5%;
   margin-top: 10px;
   text-align: center;
   white-space:pre-wrap;
-  font-size: 30px;
+  font-size: 1rem;
   
 }
 
+@media screen and (max-width:768px){
 
+
+  .container{
+    
+    width: 100vw;
+    height: 99vh;
+    
+  }
+
+  .window{
+    width: 48vw;
+    height: 97vh;
+    top: 0.2rem;
+    left: 0.2rem;
+  }
+
+  .output-box{
+    width: 52vw;
+    height: 97vh;
+    top: 0.2rem;
+    right: 0.2rem;
+
+  }
+  input{
+    width: 35vw;
+    height: 2rem;
+  }
+
+  #backbtn{
+    width: 25vw;
+  }
+  #sendbtn{
+    width: 25vw;
+  }
+}
 
