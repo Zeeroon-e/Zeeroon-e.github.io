@@ -5,17 +5,18 @@
   box-sizing: border-box;
 }
 
+
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: bisque;
-  border-bottom: solid black;
+  background-color: rgb(102, 200, 230);
+  
 }
 
 .logo{
-  color: black;
+  color: rgb(250, 250, 250);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
@@ -30,7 +31,7 @@ nav{
   list-style: none;
 }
 .nav-links a{
-  color: black;
+  color: rgb(250, 250, 250);
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -38,7 +39,7 @@ nav{
   padding: 0.5rem;
 }
 #current-page{
- border: 2px solid black;
+ border: 2px solid rgb(252, 251, 251);
  
  
 }
@@ -51,7 +52,7 @@ nav{
 .burger div{
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: rgb(250, 250, 250);
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -71,14 +72,14 @@ nav{
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: bisque;
+    background-color: rgba(3, 3, 3, 0.425);
     display: flex;
     flex-direction: column;
     align-items: center;
     transform: translatex(100%);
     transition: transform 0.5s ease-in;
     width: 50%;
-    
+    z-index: 1;
     
   }
 
@@ -117,7 +118,21 @@ nav{
 
 
 /*css för sidan project*/
-
+body{
+  background-image: url(https://www.wallpaperflare.com/static/8/169/216/firewatch-digital-art-birds-forest-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.content{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(5, 5, 5, 0.438);
+  backdrop-filter: blur(5px);
+  z-index: -1;
+  
+}
 .grid-container{
   display: grid;
   width: 80%;
@@ -127,11 +142,12 @@ nav{
   grid-gap: 20px;
   grid-auto-rows: 250px;
   grid-auto-columns: 200px;
+  z-index: 1;
   
 }
 
 .project1{
-  background-color: rgba(2, 2, 2, 0.137);
+  background-color: rgb(236, 132, 34);
   text-align: center;
   font-size: 1.25rem;
   

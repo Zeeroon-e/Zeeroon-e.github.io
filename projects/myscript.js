@@ -51,7 +51,7 @@ if (Betald == Pris)
 
 if (Betald > Pris)  
 {
-  outputmsg.innerHTML += "Växel tillbaka: \n";
+  /*outputmsg.innerHTML += "Växel tillbaka: \n";*/
 }
 
 
