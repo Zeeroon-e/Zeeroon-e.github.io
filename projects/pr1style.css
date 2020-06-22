@@ -136,6 +136,9 @@ input{
     right: 0.2rem;
 
   }
+  #outputmsg{
+    padding: 0px;
+  }
   input{
     width: 35vw;
     height: 2rem;

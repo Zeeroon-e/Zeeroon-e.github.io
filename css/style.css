@@ -57,13 +57,17 @@ nav{
   transition: all 0.3s ease;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 
 
 
 
 
 @media screen and (max-width:768px){
-
+ 
   body{
     overflow-x: hidden;
   }
@@ -131,12 +135,14 @@ body{
   background-color: rgba(5, 5, 5, 0.438);
   backdrop-filter: blur(5px);
   z-index: -1;
+  margin-top: 5rem;
   
 }
 .grid-container{
   display: grid;
   width: 80%;
   padding-top: 5vh;
+  padding-bottom: 5vh;
   margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
@@ -147,26 +153,26 @@ body{
 }
 
 .project1{
-  background-color: rgb(236, 132, 34);
+  background-color: rgb(173, 171, 171);
   text-align: center;
   font-size: 1.25rem;
+  border: 3px solid rgb(252, 252, 252);
   
- 
   
 }
 .project2{
-  background-color: rgb(133, 47, 47);
- 
+  background-color: rgb(173, 171, 171);
+  border: 3px solid rgb(252, 252, 252);
  
 }
 .project3{
-  background-color: rgb(0, 0, 0);
-  
+  background-color: rgb(173, 171, 171);
+  border: 3px solid rgb(252, 252, 252);
   
 }
 .project4{
-  background-color: rgb(0, 0, 0);
-  
+  background-color: rgb(173, 171, 171);
+  border: 3px solid rgb(252, 252, 252);
  
 }
 
